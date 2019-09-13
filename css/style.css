@@ -1309,6 +1309,7 @@ input[type="submit"]:hover {
 
   .phonemob a {
     color: #000;
+    font-size: 20px;
   }
 
   .garant {
@@ -1574,7 +1575,7 @@ input[type="submit"]:hover {
     position: relative;
     padding-left: 20px;
   }
-  .close_mob_form::before {
+  .close_mob_form p::before {
     content: '';
     background-image: url(../img/close.svg);
     background-position-y: 2px;
@@ -1583,7 +1584,7 @@ input[type="submit"]:hover {
     width: 15px;
     height: 20px;
     position: absolute;
-    left: 25%;
+    left: 22%;
   }
   .off {
     display: initial;
