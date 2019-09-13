@@ -1247,7 +1247,9 @@ input[type="submit"]:hover {
   outline: none;
   border: 1px solid #000;
 }
-
+.off {
+  display: none;
+}
 #textch {
   padding-top: 40px;
   font-size: 12px;
@@ -1558,6 +1560,33 @@ input[type="submit"]:hover {
 
   #mapyandex {
     display: none;
+  }
+  .close_mob_form {
+    padding: 6px;
+    width: auto;
+    text-align: center;
+    background: #e4d01b;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    margin-top: 10px;
+  }
+  .close_mob_form p {
+    position: relative;
+    padding-left: 20px;
+  }
+  .close_mob_form::before {
+    content: '';
+    background-image: url(../img/close.svg);
+    background-position-y: 2px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: 25%;
+  }
+  .off {
+    display: initial;
   }
 }
 

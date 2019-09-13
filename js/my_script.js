@@ -58,6 +58,12 @@ fullfon.onclick = function () {
 	fullfon.classList.remove('fullopen');
 	blockforma.classList.add('show-form');
 }
+
+let closeMobForm = document.querySelector('.close_mob_form');
+closeMobForm.addEventListener('click', function(e) {
+	fullfon.classList.remove('fullopen');
+	blockforma.classList.add('show-form');
+});
 // // Comments
 // let arrows = document.querySelector('.arrows');
 // let slider = document.querySelectorAll('.slider');
