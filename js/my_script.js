@@ -57,7 +57,7 @@ for (i = 0; i < button_form.length; i++) {
 fullfon.onclick = function () {
 	fullfon.classList.remove('fullopen');
 	blockforma.classList.add('show-form');
-}
+};
 
 let closeMobForm = document.querySelector('.close_mob_form');
 closeMobForm.addEventListener('click', function(e) {
